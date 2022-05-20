@@ -1,0 +1,21 @@
+.intro { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 24%;
+    min-height: 100vh;
+    
+}
+
+.introTitle {
+    font-size: 86px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.introDesc {
+    font-size: 30px;
+    text-align: center;
+    max-width: fit-content;
+}
