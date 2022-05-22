@@ -1,7 +1,20 @@
+import style from '../styles/About.module.css'
+
 export default function About() {
-    
+    const tech_stack = [
+        "Javascript ES6+",
+        "Python",
+        "C",
+        "Java",
+        "Node.js",
+        "HTML & CSS",
+        "Next.js with Material UI",
+        "MongoDB",
+        "Fundamental Photoshop"
+    ]
+
     return (
-        <div className=" text-center">
+        <div className={style.about}>
             <p>
                 I'm currently a third year Computer Science major at University of Saskatchewan. 
                 During my acedemic years, I have developed interest in Full-stack Development, Human Computer Interaction, and Artificial Intelligence.
