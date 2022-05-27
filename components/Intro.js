@@ -2,8 +2,7 @@ import style from '../styles/Intro.module.css'
 
 export default function Intro() {
     return (
-
-        <section className="bg-[url('../public/synthwaveSun.gif')] bg-cover bg-center text-center" id='about'>
+        <section className={style.introGif} id='intro'>
             <div className={style.intro}>
             <h1 className={style.introTitle}>
             Welcome! 🪐

@@ -19,3 +19,9 @@
     text-align: center;
     max-width: fit-content;
 }
+
+.introGif {
+    background-image: url('../public/synthwaveSun.gif');
+    background-size: cover;
+    background-position: center;
+}
