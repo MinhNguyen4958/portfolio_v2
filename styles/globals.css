@@ -10,3 +10,12 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+
+:root {
+  --violet: #7f00ff;
+  --palatinate-purple: #560D57ff;
+  --russian-violet: #370A48ff;
+  --persian-indigo: #290D5Fff;
+  --purple-pizzazz: #FB4CE6ff;
+  --russian-violet-2: #280648ff;
+}

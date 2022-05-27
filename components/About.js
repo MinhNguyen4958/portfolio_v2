@@ -13,19 +13,43 @@ export default function About() {
         "Fundamental Photoshop"
     ]
 
-    return (
-        <div className={style.about}>
+    const AboutDescription = () => {
+        return(
             <p>
-                I'm currently a third year Computer Science major at University of Saskatchewan. 
-                During my acedemic years, I have developed interest in Full-stack Development, Human Computer Interaction, and Artificial Intelligence.
+                I'm currently a third year Computer Science major at 
+                <a href='https://www.usask.ca/about/index.php'>
+                    {' '}
+                    University of Saskatchewan 
+                    </a> 
+                 . During my acedemic years, I have developed interest in Full-stack Development, Human Computer Interaction, and Artificial Intelligence.
             </p>
-            <br/>
-            <p>I also have a passion for music and arts, synthwave and 80s retro arts, respectively.</p> <br/>
-            <p>Here are some technologies that I have worked with: 
-                Javascript, Next.js, Node.js (Express.js), MongoDB, MySQL, Some web frameworks - Material UI, tailwind CSS (this project!)
-            </p>
+        )
+    }
+    
+    const OutsideWork = () => { 
+        return (
+            <p>I also have a passion for music and arts, synthwave and 80s retro arts, respectively.</p>
+        )
+    }
 
-        </div>
+    return (
+        <section>
+            <div className={style.about}>
+                {AboutDescription()}
+                
+               {'Here are some technologies that I have worked with: '}
+               <ul>
+                   {tech_stack.map(function(tech, i) {
+                       return (
+                           <li>{tech}</li>
+                       )
+                   })}
+               </ul>
+
+               {OutsideWork()}
+            </div>
+        </section>
+        
   
 
     )
