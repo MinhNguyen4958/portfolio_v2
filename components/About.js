@@ -28,25 +28,31 @@ export default function About() {
     
     const OutsideWork = () => { 
         return (
-            <p>I also have a passion for music and arts, synthwave and 80s retro arts, respectively.</p>
+            <p>
+                I also have a passion for music and arts, synthwave and 80s retro arts, respectively.
+            </p>
         )
     }
 
     return (
-        <section id='about'>
-            <div className={style.about}>
-                {AboutDescription()}
-                
-               {'Here are some technologies that I have worked with: '}
-               <ul>
-                   {tech_stack.map(function(tech, i) {
-                       return (
-                           <li>{tech}</li>
-                       )
-                   })}
-               </ul>
+        <section id='about' className={style.about}>
+            <div className={style.aboutContent}>
+                <div className={style.aboutDescription}>
+                    {AboutDescription()}
+                    {'Here are some technologies that I have worked with: '}
+                    <ul>
+                        {tech_stack.map(function(tech, i) {
+                            return (
+                                <li>{tech}</li>
+                            )
+                        })}
+                    </ul>
+                    {OutsideWork()}
+                </div>
+                <div>
+                    <img src={"../public/assets/me.jpg"}/>
+                </div>
 
-               {OutsideWork()}
             </div>
         </section>
         
