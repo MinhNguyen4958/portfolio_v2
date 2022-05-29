@@ -2,15 +2,14 @@ import style from '../styles/About.module.css'
 
 export default function About() {
     const tech_stack = [
-        "Javascript ES6+",
+        "Javascript",
         "Python",
         "C",
         "Java",
         "Node.js",
         "HTML & CSS",
-        "Next.js with Material UI",
-        "MongoDB",
-        "Fundamental Photoshop"
+        "Next.js",
+        "MongoDB"
     ]
 
     const AboutDescription = () => {
@@ -50,7 +49,7 @@ export default function About() {
                     {OutsideWork()}
                 </div>
                 <div>
-                    <img src={"../public/assets/me.jpg"}/>
+                    <img/>
                 </div>
 
             </div>
