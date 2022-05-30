@@ -1,7 +1,7 @@
 .about {
     min-height: 60vh;
     padding-left: 15%;
-    padding-right: 25%;
+    padding-right: 5%;
     padding-top: 15px;
     background: rgb(45,33,171);
 background: linear-gradient(90deg, rgba(45,33,171,1) 0%, rgba(161,59,159,1) 100%);
@@ -51,6 +51,7 @@ background: linear-gradient(90deg, rgba(45,33,171,1) 0%, rgba(161,59,159,1) 100%
 
 .aboutImage {
     padding-left: 40px;
+    padding-top: 45px;
 }
 
 .aboutImage img {   
