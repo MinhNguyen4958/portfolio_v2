@@ -48,8 +48,8 @@ export default function About() {
                     </ul>
                     {OutsideWork()}
                 </div>
-                <div>
-                    <img/>
+                <div className={style.aboutImage}>
+                    <img src={'/image/me.jpg'}/>
                 </div>
 
             </div>
