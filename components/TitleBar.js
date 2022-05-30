@@ -3,7 +3,7 @@ export default function TitleBar() {
     return (
     <Head>
         <title>Minh Nguyen</title>
-        <link rel="icon" href="/Tree.png" />
+        <link rel="icon" href="/image/Tree.png" />
     </Head>
     )
 }

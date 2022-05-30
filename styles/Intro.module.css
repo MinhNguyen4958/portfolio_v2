@@ -21,7 +21,7 @@
 }
 
 .introGif {
-    background-image: url('../public/assets/synthwaveSun.gif');
+    background-image: url('../public/image/synthwaveSun.gif');
     background-size: cover;
     background-position: center;
 }

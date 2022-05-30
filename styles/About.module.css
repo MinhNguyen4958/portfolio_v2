@@ -2,6 +2,7 @@
     min-height: 60vh;
     padding-left: 15%;
     padding-right: 25%;
+    padding-top: 15px;
     background: rgb(45,33,171);
 background: linear-gradient(90deg, rgba(45,33,171,1) 0%, rgba(161,59,159,1) 100%);
 }
@@ -15,14 +16,18 @@ background: linear-gradient(90deg, rgba(45,33,171,1) 0%, rgba(161,59,159,1) 100%
     max-width: 600px;
     font-size: 22px;
     text-align: justify;
-    margin: 0;
 }
 
 .aboutDescription ul {
-    padding-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 10px));
+}
+
+.aboutDescription p {
+    padding-bottom: 15px;
 }
 
 .aboutDescription li {
@@ -56,4 +61,3 @@ background: linear-gradient(90deg, rgba(45,33,171,1) 0%, rgba(161,59,159,1) 100%
     box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
     border: none;
 }
-  
