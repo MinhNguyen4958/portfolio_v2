@@ -13,7 +13,7 @@ export default function Home() {
       <div>
         <Intro/>
         <About/>
-        {/* <Projects/> */}
+        <Projects/>
         <Credits/>
       </div>
       {/* <SideNavBar/> */}

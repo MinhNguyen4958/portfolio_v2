@@ -10,10 +10,10 @@ export default function Projects () {
         <section id='projects'>
             <div>
                 <Portfolio/>
-                <DeagerVision/>
-                <ShelterSystem/>
-                <DrawingApp/>
-                <Messenger/>
+                {/* <DeagerVision/> */}
+                {/* <ShelterSystem/> */}
+                {/* <DrawingApp/> */}
+                {/* <Messenger/> */}
             </div>
         </section>        
     )
