@@ -5,7 +5,9 @@
     padding-left: 5%;
     padding-top: 24%;
     min-height: 100vh;
-    
+    background-image: url('../public/image/synthwaveSun.gif');
+    background-size: cover;
+    background-position: center;
 }
 
 .introTitle {
@@ -18,10 +20,4 @@
     font-size: 30px;
     text-align: center;
     max-width: fit-content;
-}
-
-.introGif {
-    background-image: url('../public/image/synthwaveSun.gif');
-    background-size: cover;
-    background-position: center;
 }

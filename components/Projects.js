@@ -8,13 +8,11 @@ import ShelterSystem from "./Projects/ShelterSystem";
 export default function Projects () {
     return (
         <section id='projects'>
-            <div>
                 <Portfolio/>
                 {/* <DeagerVision/> */}
                 {/* <ShelterSystem/> */}
                 {/* <DrawingApp/> */}
                 {/* <Messenger/> */}
-            </div>
         </section>        
     )
 }

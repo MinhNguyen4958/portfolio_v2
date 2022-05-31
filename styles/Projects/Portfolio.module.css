@@ -1,0 +1,66 @@
+         
+.btnGrad {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;  /* will work on this */       
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    }
+
+.btnGrad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.projectContent {
+    padding-top: 12vh;
+    padding-left: 5vh;
+    padding-right: 60%;
+    min-height: 80vh;
+}
+
+.projectVideo {   
+    object-fit: cover;   
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1; 
+}
+
+.descBox {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    /* vertical-align: middle; */
+    background: rgb(54, 57, 62 ,.5);
+    align-items: center;
+}
+
+.descBox h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    /* color: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%); */
+}
+
+.descBox a {
+    color: var(--violet);
+}
+
+.descBox p {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.descBox span {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: var(--purple-pizzazz);
+}

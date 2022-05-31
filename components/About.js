@@ -12,6 +12,10 @@ export default function About() {
         "MongoDB"
     ]
 
+    const techItems = tech_stack.map((tech) => 
+        <li>{tech}</li>
+    )
+
     const AboutDescription = () => {
         return(
             <p>
@@ -28,7 +32,7 @@ export default function About() {
     const OutsideWork = () => { 
         return (
             <p>
-                I also have a passion for music and arts, synthwave and 80s retro arts, respectively.
+                I also have a passion for synthwave and 80s retro arts, and a strong liking to Astronomy.🪐
             </p>
         )
     }
@@ -40,11 +44,7 @@ export default function About() {
                     {AboutDescription()}
                     {'Here are some technologies that I have worked with: '}
                     <ul>
-                        {tech_stack.map(function(tech, i) {
-                            return (
-                                <li>{tech}</li>
-                            )
-                        })}
+                        {techItems}
                     </ul>
                     {OutsideWork()}
                 </div>

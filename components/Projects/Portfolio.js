@@ -1,17 +1,32 @@
-import { Button } from "@mui/material";
+import { Button, Link } from "@mui/material";
+import style from '../../styles/projects/Portfolio.module.css'
 
 export default function Portfolio () {
     return (
-        <div>
-            <p>
-        This portfolio: I decided to revamp  {' '} 
-        <a className='font-bold text-purple-300' href='https://minhnguyen4958.github.io/'> my portfolio </a> 
-        with a more modern, miminalistic one. What inspired me to make the change, you may ask? I have fundamental experience
-        in Next.js frontend framework and CSS in previous group projects, coupled that with a passion to gain knowledge about UI/UX design thinking.
-        <p className=" text-purple-300 font-bold "> Next.js, Tailwind CSS</p>
-    </p>
-    <Button/>
+        <div className={style.projectContent}>
+            <div className={style.projectVideo}>
+                <video playsInline autoPlay muted loop>
+                    <source src="/video/Portfolio.mp4" type="video/mp4"/> 
+                </video>
+            </div>
+
+            <div className={style.descBox}>
+                <h1>This portfolio</h1>
+                    <p>
+                        I decided to revamp {' '}
+                        <a href='https://minhnguyen4958.github.io/'> my portfolio </a>
+                        with a more modern, miminalistic one. What inspired me to make the change, you may ask? <br/>
+                        I wanted to learn more about Next.js and CSS, coupled that with a passion to gain knowledge about UI/UX.
+                    </p>
+                <span>Next.js, HTML, CSS</span>
+                <div>
+                    <Link href='https://www.minhnguyen4958.me/' style={{textDecoration: 'none'}}>
+                    <Button variant='outlined' className={style.btnGrad} size={'medium'}>github</Button>
+                    </Link>
+                
+                </div>
+            </div>
+
         </div>
-    
     )
 }
