@@ -23,18 +23,22 @@
     padding-top: 12vh;
     padding-left: 5vh;
     padding-right: 60%;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
-.projectVideo {   
-    object-fit: cover;   
+.projectVideo {    
     width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1; 
+    height: 100vh;
+}
+
+.projectVideo video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .descBox {
+    position: absolute;
     padding: 25px;
     display: flex;
     flex-direction: column;

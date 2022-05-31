@@ -2,14 +2,11 @@ import { Button, Link } from "@mui/material";
 import style from '../../styles/projects/Portfolio.module.css'
 
 export default function Portfolio () {
-    return (
-        <div className={style.projectContent}>
-            <div className={style.projectVideo}>
-                <video playsInline autoPlay muted loop>
-                    <source src="/video/Portfolio.mp4" type="video/mp4"/> 
-                </video>
-            </div>
 
+
+    return (
+        <div className={style.projectVideo}>
+            <video src="/video/Portfolio.mp4" autoPlay muted loop/>
             <div className={style.descBox}>
                 <h1>This portfolio</h1>
                     <p>
@@ -21,12 +18,10 @@ export default function Portfolio () {
                 <span>Next.js, HTML, CSS</span>
                 <div>
                     <Link href='https://www.minhnguyen4958.me/' style={{textDecoration: 'none'}}>
-                    <Button variant='outlined' className={style.btnGrad} size={'medium'}>github</Button>
+                        <Button variant='outlined' className={style.btnGrad} size={'medium'}>github</Button>
                     </Link>
-                
                 </div>
             </div>
-
         </div>
     )
 }
