@@ -11,8 +11,8 @@ export default function Projects () {
                 <Portfolio/>
                 <DeagerVision/>
                 <ShelterSystem/>
-                {/* <DrawingApp/> */}
-                {/* <Messenger/> */}
+                <DrawingApp/>
+                <Messenger/>
         </section>        
     )
 }

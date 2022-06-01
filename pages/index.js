@@ -16,7 +16,9 @@ export default function Home() {
         <Projects/>
         <Credits/>
       </div>
-      {/* <SideNavBar/> */}
+      <div>
+      <SideNavBar/>
+      </div>
     </div>
   )
 }

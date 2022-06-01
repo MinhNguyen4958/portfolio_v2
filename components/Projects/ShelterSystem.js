@@ -1,4 +1,4 @@
-import { Button, Link } from "@mui/material";
+import { Button } from "@mui/material";
 import style from '../../styles/projects/ShelterSystem.module.css'
 
 export default function ShelterSystem () {
