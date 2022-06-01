@@ -8,8 +8,8 @@ export default function SideNavBar() {
     return (
         <div className={style.sideBar}>
             <div className={style.sidebarLinks}>
-                <a href="#intro">Home</a>,
-                <a href="#about">About</a>,
+                <a href="#intro">Home</a>
+                <a href="#about">About</a>
                 <a href="#projects">Projects</a>    
             </div>
             <div className={style.sidebarLogos}>

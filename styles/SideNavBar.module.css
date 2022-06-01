@@ -12,11 +12,13 @@
 
 .sideBar a {
     text-decoration: none !important;
-    color: var(--violet) !important;
+    color: var(--purple-pizzazz) !important;
+
 }
   
 .sideBar a:hover {
-    color: var(--purple-pizzazz) !important;
+    color: var(--violet) !important;
+
 }
 
 .sidebarLinks {
@@ -24,7 +26,7 @@
     flex-direction: column;
     text-align: right;
     letter-spacing: 0em;
-    line-height: 1em;
+    line-height: 1.6em;
     font-size: 16px;
     padding: 0.2em;
     font-weight: bold;
