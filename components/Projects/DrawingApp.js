@@ -1,5 +1,5 @@
 import { Button } from "@mui/material";
-import style from '../../styles/projects/DrawingApp.module.css'
+import style from '../../styles/DrawingApp.module.css'
 
 export default function DrawingApp() {
     const handleClick = () => {

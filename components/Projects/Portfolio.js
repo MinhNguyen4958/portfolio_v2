@@ -1,5 +1,5 @@
 import { Button, Link } from "@mui/material";
-import style from '../../styles/projects/Portfolio.module.css'
+import style from '../../styles/Portfolio.module.css'
 
 export default function Portfolio () {
     return (

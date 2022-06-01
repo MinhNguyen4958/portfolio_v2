@@ -1,5 +1,5 @@
 import { Button } from "@mui/material";
-import style from '../../styles/projects/Multicast.module.css'
+import style from '../../styles/Multicast.module.css'
 
 export default function Messenger() {
     const handleClick = () => {
