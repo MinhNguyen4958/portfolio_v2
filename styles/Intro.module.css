@@ -14,10 +14,12 @@
     font-size: 86px;
     font-weight: 400;
     text-align: center;
+    color: white;
 }
 
 .introDesc {
     font-size: 30px;
     text-align: center;
     max-width: fit-content;
+    color: white;
 }

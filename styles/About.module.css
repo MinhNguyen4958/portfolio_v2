@@ -3,8 +3,8 @@
     padding-left: 15%;
     padding-right: 5%;
     padding-top: 15px;
-    background: rgb(45,33,171);
-background: linear-gradient(90deg, rgba(45,33,171,1) 0%, rgba(161,59,159,1) 100%);
+    color: white;
+    background: linear-gradient(90deg, rgba(45,33,171,1) 0%, rgba(161,59,159,1) 100%);
 }
 
 .aboutContent {

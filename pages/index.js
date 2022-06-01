@@ -8,13 +8,13 @@ import homeStyle from '../styles/Home.module.css'
 export default function Home() {
   return (
     
-    <div>
+    <div className={homeStyle.bg}>
       <TitleBar/>
       <div>
         <Intro/>
         <About/>
         <Projects/>
-        {/* <Credits/> */}
+        <Credits/>
       </div>
       {/* <SideNavBar/> */}
     </div>

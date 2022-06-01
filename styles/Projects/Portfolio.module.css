@@ -1,4 +1,10 @@
-         
+.portfolio {
+    background-image: url('../../public/image/Portfolio.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}       
+
 .btnGrad {
     background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
     margin: 10px;
@@ -18,32 +24,17 @@
     text-decoration: none;
 }
 
-
-.projectContent {
-    padding-top: 12vh;
-    padding-left: 5vh;
-    padding-right: 60%;
-    min-height: 100vh;
-}
-
-.projectVideo {    
-    width: 100%;
-    height: 100vh;
-}
-
-.projectVideo video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-}
-
 .descBox {
-    position: absolute;
+    margin-left: 40px;
+    margin-right: 60%;
+    margin-top: 23vh;
+    margin-bottom: 10vh;
+
+    color: white;
     padding: 25px;
     display: flex;
     flex-direction: column;
-    /* vertical-align: middle; */
-    background: rgb(54, 57, 62 ,.5);
+    background: rgb(54, 57, 62 , .7);
     align-items: center;
 }
 
@@ -55,7 +46,7 @@
 }
 
 .descBox a {
-    color: var(--violet);
+    color: var(--purple-pizzazz);
 }
 
 .descBox p {
@@ -64,7 +55,8 @@
 }
 
 .descBox span {
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 22px;
     padding-bottom: 20px;
-    color: var(--purple-pizzazz);
+    color: var(--violet);
 }

@@ -13,7 +13,7 @@ export default function About() {
     ]
 
     const techItems = tech_stack.map((tech) => 
-        <li>{tech}</li>
+        <li key={tech}>{tech}</li>
     )
 
     const AboutDescription = () => {
