@@ -1,12 +1,7 @@
-import { Button } from "@mui/material";
+import { Button, Link } from "@mui/material";
 import style from '../../styles/ShelterSystem.module.css'
 
 export default function ShelterSystem () {
-
-    const handleClick = () => {
-        window.open('https://github.com/MinhNguyen4958/Shelter-System-v2');
-    };
-
     return (
         <section id='sheltersystem' className={style.sheltersystem}>
             <div className={style.descBox}>
@@ -18,7 +13,9 @@ export default function ShelterSystem () {
                 </p>
                 <span>MongoDB, Next.js, Javascript</span>
                 <div>
-                    <Button variant='outlined' className={style.btnGrad} size={'medium'} onClick={handleClick}>github</Button>
+                    <Link href='https://github.com/MinhNguyen4958/Shelter-System-v2' style={{textDecoration: 'none'}}>
+                        <Button variant='outlined' className={style.btnGrad} size={'large'}>github</Button>
+                    </Link>
                 </div>
             </div>
         </section>

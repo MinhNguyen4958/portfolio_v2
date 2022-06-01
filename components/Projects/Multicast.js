@@ -1,11 +1,7 @@
-import { Button } from "@mui/material";
+import { Button, Link } from "@mui/material";
 import style from '../../styles/Multicast.module.css'
 
 export default function Messenger() {
-    const handleClick = () => {
-        window.open('https://github.com/MinhNguyen4958/Multicast-Messenger');
-    };
-
     return ( 
         <section id='multicast' className={style.multicast}>
             <div className={style.descBox}>
@@ -17,8 +13,9 @@ export default function Messenger() {
                 </p>
                 <span> C with POSIX pthread library</span>
                 <div>
-                    <Button variant='outlined' className={style.btnGrad} size={'medium'} onClick={handleClick}>github</Button>
-                </div>
+                    <Link href='https://github.com/MinhNguyen4958/Multicast-Messenger' style={{textDecoration: 'none'}}>
+                        <Button variant='outlined' className={style.btnGrad} size={'large'}>github</Button>
+                    </Link>                </div>
             </div>
         </section>
     )

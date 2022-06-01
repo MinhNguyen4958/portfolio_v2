@@ -1,10 +1,7 @@
-import { Button } from "@mui/material";
+import { Button, Link } from "@mui/material";
 import style from '../../styles/DrawingApp.module.css'
 
 export default function DrawingApp() {
-    const handleClick = () => {
-        window.open('https://github.com/MinhNguyen4958/Drawing-Application')
-    }
     return (
         <section id='drawingapp' className={style.drawingapp}>
             <div className={style.descBox}>
@@ -16,7 +13,9 @@ export default function DrawingApp() {
                 </p>
                 <span> Java with JavaFX framework</span>
                 <div>
-                    <Button variant='outlined' className={style.btnGrad} size={'medium'} onClick={handleClick}>github</Button>
+                    <Link href='https://github.com/MinhNguyen4958/Drawing-Application' style={{textDecoration: 'none'}}>
+                        <Button variant='outlined' className={style.btnGrad} size={'large'}>github</Button>
+                    </Link>
                 </div>
             </div>
 
