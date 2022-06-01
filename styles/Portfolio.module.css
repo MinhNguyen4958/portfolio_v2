@@ -1,5 +1,5 @@
 .portfolio {
-    background-image: url('../../public/image/Portfolio.png');
+    background-image: url('/image/Portfolio.png');
     background-position: center;
     background-size: cover;
     min-height: 100vh;

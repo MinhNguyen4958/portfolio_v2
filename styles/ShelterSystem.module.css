@@ -1,5 +1,5 @@
 .sheltersystem {
-    background-image: url('../../public/image/ShelterSystem.png');
+    background-image: url('/image/ShelterSystem.png');
     background-position: center;
     background-size: cover;
     min-height: 100vh;

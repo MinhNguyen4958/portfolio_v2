@@ -1,6 +1,6 @@
 .drawingapp {
     min-height: 100vh;
-    background-image: url('../../public/image/DrawingApp.png');
+    background-image: url('/image/DrawingApp.png');
     background-size: cover;
     background-position: center;
 }  

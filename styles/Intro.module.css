@@ -5,7 +5,7 @@
     padding-left: 5%;
     padding-top: 24%;
     min-height: 100vh;
-    background-image: url('../public/image/synthwaveSun.gif');
+    background-image: url('/image/synthwaveSun.gif');
     background-size: cover;
     background-position: center;
 }

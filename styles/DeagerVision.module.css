@@ -1,6 +1,6 @@
 .deagervision {
     min-height: 100vh;
-    background-image: url('../../public/image/DeagerVision.png');
+    background-image: url('/image/DeagerVision.png');
     background-size: cover;
     background-position: center;
 }  
