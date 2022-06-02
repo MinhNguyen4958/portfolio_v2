@@ -1,13 +1,13 @@
 .credits {
     display: flex;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .endingCredits {
-    color: var(--slate);
+    color: var(--soft-purple);
     text-align: center;
     width: 100%;
-    font-size: 16px;
+    font-size: 20px;
     padding-bottom: 40px;
 }

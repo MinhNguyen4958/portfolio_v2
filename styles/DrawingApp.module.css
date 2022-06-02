@@ -1,6 +1,6 @@
 .drawingapp {
     min-height: 100vh;
-    background-image: url('/image/DrawingApp.png');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .1),  rgba(0, 0, 0, .1)), url('/image/DrawingApp.png');
     background-size: cover;
     background-position: center;
 }  
@@ -30,11 +30,11 @@
     margin-top: 23vh;
     margin-bottom: 10vh;
 
-    color: white;
-    padding: 25px;
+    color: var(--soft-purple);
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    background: rgb(54, 57, 62 , .7);
+    background: rgb(24, 26, 24 , .8);
     align-items: center;
 }
 
@@ -45,12 +45,8 @@
     /* color: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%); */
 }
 
-.descBox a {
-    color: var(--purple-pizzazz);
-}
-
 .descBox p {
-    font-size: 18px;
+    font-size: 20px;
     padding-bottom: 15px;
 }
 
@@ -58,7 +54,7 @@
     font-weight: bold;
     font-size: 22px;
     padding-bottom: 20px;
-    color: var(--violet);
+    color: var(--capri);
 }
 
 @media only screen and (max-width: 1000px) {

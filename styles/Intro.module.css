@@ -1,15 +1,15 @@
 .introBg { 
     min-height: 100vh;
-    background-image: url('/image/synthwaveSun.gif');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2),  rgba(0, 0, 0, 0.2)), url('/image/synthwaveSun.gif');
     background-size: cover;
     background-position: center;
 }
 .intro { 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 45vh;
-    color: white;
+    padding-left: 12%;
+    padding-top: 40vh;
+    color: var(--soft-purple);
 }
 
 .introTitle {

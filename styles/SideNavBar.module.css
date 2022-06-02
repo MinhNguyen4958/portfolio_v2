@@ -12,12 +12,12 @@
 
 .sideBar a {
     text-decoration: none !important;
-    color: var(--purple-pizzazz) !important;
+    color: var(--phlox) !important;
 
 }
   
 .sideBar a:hover {
-    color: var(--violet) !important;
+    color: var(--capri) !important;
 
 }
 
