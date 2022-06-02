@@ -40,4 +40,10 @@
     justify-content: space-between;
     padding-bottom: 8px;
 }
+
+@media only screen and (max-width: 600px) {
+    .sideBar { 
+        padding-right: 20px;
+    }
+}
   

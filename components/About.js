@@ -32,7 +32,7 @@ export default function About() {
     const OutsideWork = () => { 
         return (
             <p>
-                I also have a passion for synthwave and 80s retro arts, and a strong liking to Astronomy.🪐
+                I also have a passion for synthwave and 80s retro arts, and a strong liking to Astronomy. 🪐
             </p>
         )
     }
