@@ -1,25 +1,36 @@
-.intro { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 5%;
-    padding-top: 24%;
+.introBg { 
     min-height: 100vh;
     background-image: url('/image/synthwaveSun.gif');
     background-size: cover;
     background-position: center;
 }
+.intro { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35vh;
+    color: white;
+}
 
 .introTitle {
     font-size: 86px;
     font-weight: 400;
-    text-align: center;
-    color: white;
+    text-align: justify;
 }
 
 .introDesc {
     font-size: 30px;
     text-align: center;
     max-width: fit-content;
-    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .introTitle {
+        font-size: 70px;
+    }
+
+    .introDesc {
+        font-size: 26px;
+    };
 }

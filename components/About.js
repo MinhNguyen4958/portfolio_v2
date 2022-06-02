@@ -19,7 +19,7 @@ export default function About() {
     const AboutDescription = () => {
         return(
             <p>
-                I'm currently a third year Computer Science major at 
+                I'm currently a third year <b>Computer Science</b> major at 
                 <a href='https://www.usask.ca/about/index.php'>
                     {' '}
                     University of Saskatchewan 

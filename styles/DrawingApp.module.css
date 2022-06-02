@@ -60,3 +60,23 @@
     padding-bottom: 20px;
     color: var(--violet);
 }
+
+@media only screen and (max-width: 1000px) {
+    .descBox {
+        margin-right: 10vw;
+        margin-left: 10vw;
+        margin-top: 15vh;
+    }
+
+    .descBox h1 {
+        font-size: 35px;
+    }
+    
+    .descBox p {
+        font-size: 18px;
+    }
+
+    .descBox span {
+        font-size: 19px;
+    }
+}

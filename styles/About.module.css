@@ -62,3 +62,34 @@
     box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
     border: none;
 }
+
+@media only screen and (max-width: 795px) {
+    .aboutImage img {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .about {
+      padding-left: 3vh;
+      padding-right: 15px;
+      padding-top: 6vh;
+    }
+  
+    .aboutDescription {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    .aboutDescription a {
+        font-size: 18px;
+    }
+  
+    .aboutImage img {
+      display: none;
+    }
+  
+    .aboutContent {
+      display: unset;
+    }
+  }

@@ -26,7 +26,7 @@
 
 .descBox {
     margin-left: 40px;
-    margin-right: 60%;
+    margin-right: 60vw;
     margin-top: 23vh;
     margin-bottom: 10vh;
 
@@ -50,7 +50,7 @@
 }
 
 .descBox p {
-    font-size: 18px;
+    font-size: 21px;
     padding-bottom: 15px;
 }
 
@@ -59,4 +59,24 @@
     font-size: 22px;
     padding-bottom: 20px;
     color: var(--violet);
+}
+
+@media only screen and (max-width: 1000px) {
+    .descBox {
+        margin-right: 10vw;
+        margin-left: 10vw;
+        margin-top: 15vh;
+    }
+
+    .descBox h1 {
+        font-size: 35px;
+    }
+    
+    .descBox p {
+        font-size: 18px;
+    }
+
+    .descBox span {
+        font-size: 19px;
+    }
 }
