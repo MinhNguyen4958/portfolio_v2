@@ -7,12 +7,13 @@
 
 @font-face {
   font-family: 'NTR';
-  src: url('/fonts/NTR-regular.ttf');
+  font-display: swap;
+  src: local('NTR'), url('/fonts/NTR-regular.ttf') format('truetype');
 }
 
 .bg {
   background-color: var(--persian-indigo);
   display: flex;
   flex-direction: column;
-  font-family: 'Product-Sans', sans-serif;
+  font-family: 'NTR', sans-serif;
 }
