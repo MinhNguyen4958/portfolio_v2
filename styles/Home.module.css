@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'Product-Sans';
-  src: url('/fonts/Product_Sans_regular.ttf');
+  font-display: failback;
+  src: url('/fonts/Product_Sans_regular.ttf') format('truetype');
+  
 }
 
 @font-face {
