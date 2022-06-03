@@ -1,19 +1,5 @@
-@font-face {
-  font-family: 'Product-Sans';
-  font-display: failback;
-  src: url('/fonts/Product_Sans_regular.ttf') format('truetype');
-  
-}
-
-@font-face {
-  font-family: 'NTR';
-  font-display: swap;
-  src: local('NTR'), url('/fonts/NTR-regular.ttf') format('truetype');
-}
-
 .bg {
   background-color: var(--persian-indigo);
   display: flex;
   flex-direction: column;
-  font-family: 'NTR', sans-serif;
 }
