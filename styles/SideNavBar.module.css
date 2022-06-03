@@ -6,18 +6,17 @@
     right: 0;
     padding-right: 35px;
     bottom: 5%;
-    background-color: transparent;
 }
 
 
 .sideBar a {
     text-decoration: none !important;
-    color: var(--phlox) !important;
+    color: var(--electric-purple) 
 
 }
   
 .sideBar a:hover {
-    color: var(--capri) !important;
+    color: var(--capri)
 
 }
 
@@ -41,9 +40,38 @@
     padding-bottom: 8px;
 }
 
+
+
 @media only screen and (max-width: 600px) {
-    .sideBar { 
-        padding-right: 20px;
-    }
+  .sideBar {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    align-items: center;
+    top: 20px;
+  }
+
+  .sidebarLinks {
+    padding-left: 18vw;
+    flex-direction: row;
+    font-size: 23px;
+  }
+
+  .sidebarLinks a {
+    padding-right: 40px;
+  }
+
+  .sidebarLogos {
+    padding-top: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5%;
+    /* padding-left: unset; */
+  }
+
+  .sidebarLogos a {
+      margin-left: 30%;
+  }
 }
-  

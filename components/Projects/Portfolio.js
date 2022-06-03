@@ -12,7 +12,7 @@ export default function Portfolio () {
                     with a more modern, miminalistic one. What inspired me to make the change, you may ask? <br/>
                     I wanted to learn more about Next.js and CSS, coupled that with a passion to gain knowledge about UI/UX.
                 </p>
-                <span>Next.js with Material Ui, HTML, CSS</span>
+                <span>Next.js with Material UI, HTML, CSS</span>
                 <div>
                     <Link href='https://github.com/MinhNguyen4958/portfolio_v2' style={{textDecoration: 'none'}}>
                         <Button variant='outlined' className={style.btnGrad} size={'large'}>github</Button>

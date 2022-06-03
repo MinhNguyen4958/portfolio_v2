@@ -26,4 +26,16 @@ body {
   --phlox: #DC00FE;
   --electric-purple: #bc00fe;
   --han-purple: #5319fb;
+  --retro-orange: #fe5e54;
+}
+
+/* Text selection box */
+::-moz-selection {
+  /* color: var(--phlox); */
+  background: var(--neon-blue);
+}
+
+::selection {
+  /* color: var(--phlox); */
+  background: var(--neon-blue);
 }
