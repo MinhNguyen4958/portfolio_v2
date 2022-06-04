@@ -54,7 +54,7 @@
   }
 
   .sidebarLinks {
-    padding-left: 18vw;
+    padding-left: 21vw;
     flex-direction: row;
     font-size: 23px;
   }
@@ -70,7 +70,6 @@
     flex-direction: row;
     justify-content: space-around;
     padding-left: 5%;
-    /* padding-left: unset; */
   }
 
   .sidebarLogos a {
