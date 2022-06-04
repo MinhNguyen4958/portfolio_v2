@@ -13,13 +13,13 @@
 }
 
 .introTitle {
-    font-size: 86px;
+    font-size: 95px;
     font-weight: 400;
     text-align: justify;
 }
 
 .introDesc {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     max-width: fit-content;
 }
@@ -28,23 +28,24 @@
 @media only screen and (max-width: 800px) {
     .intro {
         align-items: center;
-        padding-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .introTitle {
-        font-size: 74px;
+        font-size: 75px;
     }
 
     .introDesc {
-        font-size: 28px;
+        font-size: 30px;
     };
 }
 
 @media only screen and (max-width: 500px) {
     .introTitle {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     .introDesc {
-        font-size: 24px;
+        font-size: 25px;
     };
 }
