@@ -26,7 +26,7 @@
     text-align: right;
     letter-spacing: 0em;
     line-height: 1.6em;
-    font-size: 16px;
+    font-size: 20px;
     padding: 0.2em;
     font-weight: bold;
 }
@@ -40,7 +40,9 @@
     padding-bottom: 8px;
 }
 
-
+.sidebarLogos img {
+  width: 100%;
+}
 
 @media only screen and (max-width: 600px) {
   .sideBar {

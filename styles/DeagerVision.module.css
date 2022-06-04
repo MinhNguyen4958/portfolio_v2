@@ -7,15 +7,12 @@
 
 .btnGrad {
     background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
-    margin: 10px;
-    padding: 15px 45px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;  /* will work on this */       
+    color: #fff;  /* will work on this */       
     text-decoration: none;
     border-radius: 10px;
-    display: block;
 }
 
 .btnGrad:hover {
