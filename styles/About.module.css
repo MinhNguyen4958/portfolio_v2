@@ -22,7 +22,7 @@
 
 .aboutDescription ul {
     padding-top: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 10px));
@@ -35,7 +35,7 @@
 .aboutDescription li {
     position: relative;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .aboutDescription li::before {
@@ -83,7 +83,8 @@
       text-align: justify;
     }
 
-    .aboutDescription a {
+    .aboutDescription a,
+    .aboutDescription li {
         font-size: 18px;
     }
   

@@ -28,7 +28,7 @@
     margin-bottom: 10vh;
 
     color: var(--soft-purple);
-    padding: 25px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     background: rgb(24, 26, 24 , .8);
@@ -40,12 +40,13 @@
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 20px;
-    /* color: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%); */
+    padding-left: 5px;
 }
 
 .descBox p {
     font-size: 22px;
     padding-bottom: 15px;
+    padding-left: 5px;
 }
 
 .descBox span {

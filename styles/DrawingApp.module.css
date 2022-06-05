@@ -42,12 +42,12 @@
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 20px;
-    /* color: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%); */
 }
 
 .descBox p {
     font-size: 22px;
     padding-bottom: 15px;
+    padding-left: 5px;
 }
 
 .descBox span {
