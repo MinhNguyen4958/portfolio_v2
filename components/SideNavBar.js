@@ -7,7 +7,7 @@ import style from '../styles/SideNavBar.module.css'
 
 export default function SideNavBar() {
     return (
-        <div className={style.sideBar}>
+        <div className={style.sideBar} style={{fontFamily: 'Product_Sans'}}>
             <div className={style.sidebarLinks}>
                 <a href="#intro">Home</a>
                 <a href="#about">About</a>

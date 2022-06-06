@@ -40,7 +40,7 @@
 }
 
 .descBox h1 {
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 500;
     margin-bottom: 20px;
     /* color: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%); */
@@ -51,13 +51,13 @@
 }
 
 .descBox p {
-    font-size: 22px;
+    font-size: 21px;
     padding-bottom: 15px;
 }
 
 .descBox span {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 23px;
     padding-bottom: 20px;
     color: var(--capri);
 }

@@ -1,8 +1,9 @@
 .about {
     min-height: 60vh;
-    padding-left: 15%;
+    padding-left: 15vw;
     padding-right: 5%;
-    padding-top: 4vw;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
     color: var(--soft-purple);
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4),  rgba(0, 0, 0, 0.4)), url('/image/synthmountains.png');
     background-position: center;
@@ -16,7 +17,7 @@
 
 .aboutDescription {
     max-width: 600px;
-    font-size: 22px;
+    font-size: 21px;
     text-align: justify;
 }
 
@@ -35,7 +36,7 @@
 .aboutDescription li {
     position: relative;
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .aboutDescription li::before {
@@ -46,7 +47,7 @@
 }
 
 .aboutDescription a {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: bold;
     color: var(--capri);
 }
@@ -73,9 +74,10 @@
 
 @media only screen and (max-width: 670px) {
     .about {
-      padding-left: 2vh;
-      padding-right: 15px;
+      padding-left: 5vw;
+      padding-right: 5vw;
       padding-top: 6vh;
+      padding-bottom: 1vh;
     }
   
     .aboutDescription {

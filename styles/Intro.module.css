@@ -13,13 +13,13 @@
 }
 
 .introTitle {
-    font-size: 95px;
+    font-size: 75px;
     font-weight: 400;
     text-align: justify;
 }
 
 .introDesc {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     max-width: fit-content;
 }
