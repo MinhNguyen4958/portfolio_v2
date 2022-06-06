@@ -1,4 +1,4 @@
-import { Button, Link } from "@mui/material";
+import { Link } from "@mui/material";
 import style from '../../styles/DrawingApp.module.css'
 
 export default function DrawingApp() {
@@ -14,7 +14,7 @@ export default function DrawingApp() {
                 <span> Java with JavaFX framework</span>
                 <div>
                     <Link href='https://github.com/MinhNguyen4958/Drawing-Application' style={{textDecoration: 'none'}}>
-                        <Button variant='outlined' className={style.btnGrad} size={'large'}>github</Button>
+                    <button className={style.btnGrad}>GitHub</button>
                     </Link>
                 </div>
             </div>

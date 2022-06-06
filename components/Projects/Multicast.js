@@ -1,4 +1,4 @@
-import { Button, Link } from "@mui/material";
+import { Link } from "@mui/material";
 import style from '../../styles/Multicast.module.css'
 
 export default function Messenger() {
@@ -14,7 +14,7 @@ export default function Messenger() {
                 <span> C with POSIX pthread library</span>
                 <div>
                     <Link href='https://github.com/MinhNguyen4958/Multicast-Messenger' style={{textDecoration: 'none'}}>
-                        <Button variant='outlined' className={style.btnGrad} size={'large'}>github</Button>
+                        <button className={style.btnGrad}>GitHub</button>
                     </Link>                </div>
             </div>
         </section>

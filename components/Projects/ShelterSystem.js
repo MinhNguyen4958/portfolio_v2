@@ -1,4 +1,4 @@
-import { Button, Link } from "@mui/material";
+import { Link } from "@mui/material";
 import style from '../../styles/ShelterSystem.module.css'
 
 export default function ShelterSystem () {
@@ -14,7 +14,7 @@ export default function ShelterSystem () {
                 <span>MongoDB, Next.js, Javascript</span>
                 <div>
                     <Link href='https://github.com/MinhNguyen4958/Shelter-System-v2' style={{textDecoration: 'none'}}>
-                        <Button variant='outlined' className={style.btnGrad} size={'large'}>github</Button>
+                    <button className={style.btnGrad}>GitHub</button>
                     </Link>
                 </div>
             </div>

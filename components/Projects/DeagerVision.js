@@ -1,4 +1,4 @@
-import { Button, Link } from "@mui/material";
+import { Link } from "@mui/material";
 import style from '../../styles/DeagerVision.module.css'
 
 export default function DeagerVision () { 
@@ -14,7 +14,7 @@ export default function DeagerVision () {
                 <span>MongoDB, Next.js with Material UI, Javascript </span>
                 <div>
                     <Link href='https://github.com/MinhNguyen4958/DeagerVision' style={{textDecoration: 'none'}}>
-                        <Button variant='outlined' className={style.btnGrad} size={'large'}>github</Button>
+                        <button className={style.btnGrad}>GitHub</button>
                     </Link>
                 </div>
             </div>
