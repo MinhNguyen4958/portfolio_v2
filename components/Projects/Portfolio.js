@@ -15,7 +15,8 @@ export default function Portfolio () {
                 <span>Next.js with Material UI, HTML, CSS</span>
                 <div>
                     <Link href='https://github.com/MinhNguyen4958/portfolio_v2' style={{textDecoration: 'none'}}>
-                        <Button variant='outlined' className={style.btnGrad} size={'large'}>github</Button>
+                        {/* <Button variant='outlined' className={style.btnGrad} size={'large'}>github</Button> */}
+                        <button className={style.btnGrad}>GitHub</button>
                     </Link>
                 </div>
             </div>
