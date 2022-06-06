@@ -33,15 +33,11 @@
 
 .sidebarLogos {
     padding-top: 25px;
-    width: 70px;
+    /* width: 70px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 8px;
-}
-
-.sidebarLogos img {
-  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {

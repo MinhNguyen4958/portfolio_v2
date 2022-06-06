@@ -1,6 +1,7 @@
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
 
 import style from '../styles/SideNavBar.module.css'
 
@@ -17,10 +18,13 @@ export default function SideNavBar() {
                     <EmailIcon style ={{fontSize: 20}}/>
                 </a>
                 <a href="https://github.com/MinhNguyen4958">
-                    <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
+                    <GitHubIcon style={{ fontSize: 19 }}/>
                 </a>
                 <a href="https://www.linkedin.com/in/minhnguyen4958">
-                    <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
+                    <LinkedInIcon style={{ fontSize: 21 }}/>
+                </a>
+                <a href='https://open.spotify.com/playlist/52J8Y1q4E26a2ySCwe3M3R?si=996d3beaae904ecc'>
+                    <LibraryMusicIcon style={{ fontSize: 20}}/>
                 </a>
             </div>
         </div>

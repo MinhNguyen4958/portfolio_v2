@@ -7,7 +7,7 @@ import style from '../styles/Projects.module.css'
 
 export default function Projects () {
     return (
-        <section id='projects' className={style.container}>
+        <section id='projects' className={style.container} style={{fontFamily: 'Product_Sans'}}>
                 <Portfolio/>
                 <DeagerVision/>
                 <ShelterSystem/>

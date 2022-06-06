@@ -38,7 +38,7 @@ export default function About() {
     }
 
     return (
-        <section id='about' className={style.about}>
+        <section id='about' className={style.about} style={{fontFamily: 'Product_Sans'}}>
             <div className={style.aboutContent}>
                 <div className={style.aboutDescription}>
                     {AboutDescription()}
