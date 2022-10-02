@@ -23,7 +23,7 @@ export default function SideNavBar() {
                 <a href="https://www.linkedin.com/in/minhnguyen4958">
                     <LinkedInIcon style={{ fontSize: 21 }}/>
                 </a>
-                <a href='https://open.spotify.com/playlist/52J8Y1q4E26a2ySCwe3M3R?si=996d3beaae904ecc'>
+                <a href='https://open.spotify.com/user/p5xx4bvw739sqlw03iwqyjvj5?si=ab2c06424f744d1f'>
                     <LibraryMusicIcon style={{ fontSize: 20}}/>
                 </a>
             </div>
