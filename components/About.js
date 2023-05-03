@@ -49,7 +49,7 @@ export default function About() {
                     {OutsideWork()}
                 </div>
                 <div className={style.aboutImage}>
-                    <img src={'/image/me.jpg'}/>
+                    <img src={'/image/updated_me.jpg'}/>
                 </div>
 
             </div>
